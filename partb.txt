@@ -235,3 +235,11 @@ $myvar drop-target [new Agent/Null]
 $ns lossmodel $myvar $n2 $n3
 $ns at 11.0 "finish"
 $ns run
+
+
+
+Gedit s.tcl
+ns s.tcl
+grep -c "^+" lab 2.tr
+grep -c "^r" lab 2.tr
+grep -c "^d" lab2.tr
